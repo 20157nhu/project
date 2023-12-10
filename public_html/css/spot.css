@@ -1,0 +1,27 @@
+
+h1{
+    border-left:5px solid #1B4564;/*線の設定*/
+    padding:2px 8px; /*余白の設定*/
+    font-size:28px;
+    font-weight: 400;
+}
+
+.text-are{
+  padding:12px;
+  margin:0 80px 0 80px;
+}
+
+.imge-menu{
+  display:flex;
+}
+
+
+.imge{
+  margin:0 120px 0 150px;
+  flex:1 1 1;  
+}
+
+.text{
+  flex:0 0 800px;
+  font-size: 20px;
+}
