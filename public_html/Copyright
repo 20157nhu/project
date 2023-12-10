@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>著作権について</title>
+    <!--cssの導入-->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/chyosakuken.css">
+</head>
+<body>
+    <header class="logo">
+        <a href="index.html"><img src="img/logo.c.png"width="250" alt="ふらっと可児"></a>
+        </header>
+
+        <nav class="nav"><!--ヘッダーの設定-->
+          <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="spot.html">自然・観光</a></li>
+          <li><a href="travel.html">旅の計画</a></li>
+         <li><a href="map.html">マップ</a></li>
+          </ul>
+        </nav>
+
+        <div class="text-are">
+            <h1>著作権について</h1><br>
+            <p class="text">
+                <strong>参考にさせていただいたサイト</strong><br>
+                可児市観光協会様 https://kani-kankou.jp/
+                <a href="https://kani-kankou.jp/">可児市観光協会</a><br>
+                可児市役所様https://www.city.kani.lg.jp/5858.htm
+                <a href="https://www.city.kani.lg.jp/5858.htm">可児市役所</a><br>
+                岐阜の旅ガイド様 https://www.kankou-gifu.jp/
+                <a href="https://www.kankou-gifu.jp/">岐阜の旅ガイド</a><br><br>
+                <strong>参考文献</strong><br>
+                イラストAC
+                https://www.ac-illust.com/main/detail.php?id=23098294&word=%E5%92%8C%E7%B4
+                %99%E3%80%80%E7%B4%99%E3%80%80%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E3%80%80001#goog_rewarded<br>
+                <a href="https://www.ac-illust.com/main/detail.php?id=23098294&word=%E5%92%8C%E7%B4
+                %99%E3%80%80%E7%B4%99%E3%80%80%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E3%80%80001#goog_rewarded">イラストAC</a><br>
+                Google Static Map Creator https://labs.d-s-b.jp/ImagemapGenerator/
+                <a href="https://labs.d-s-b.jp/ImagemapGenerator/">Google Static Map Creato</a><br>
+            </p>
