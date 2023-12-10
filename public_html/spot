@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="css/default.css">
+<link rel="stylesheet" href="css/spot.css">
+<title>自然・観光</title>
+</head>
+<body>
+    <header class="logo">
+        <a href="index.html"><img src="img/logo.c.png"width="250" alt="ふらっと可児"></a>
+        </header>
+    
+        <nav class="nav"><!--ヘッダーの設定-->
+          <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="spot.html">自然・観光</a></li>
+          <li><a href="travel.html">旅の計画</a></li>
+          <li><a href="map.html">マップ</a></li>
+          </ul>
+        </nav>
+<div class="text-are">
+    <h1>遊ぶ・体験する</h1>
+</div>
+<div class="card-text">
+<div class="imge-menu">
+<div class="imge"><img src="img/spot/ぎふワールド・ローズガーデン.JPG" width="280" alt="" ></div>
+<div class="text">
+    <strong>ぎふワールド・ローズガーデン</strong>
+    <p>問合せ先：ぎふワールド・ローズガーデン　(0574)63-7373<br>
+        所 在 地：可児市瀬田１５８４－１<br>
+        アクセス:JR太多線可児駅、名鉄広見線新可児駅からさつきバス20分<br>
+        　　　　 東海環状自動車道可児御嵩ICから車で5分<br>
+        ＊<a href="natu.html">ぎふワールド・ローズガーデン</a>
+    </p></div></div><br><br>
+
+    <div class="imge-menu">
+        <div class="imge"><img src="img/spot/SpaResort湯の華アイランド.jpg" width="280" alt="" ></div>
+        <div class="text">
+            <strong>SpaResort湯の華アイランド</strong>
+            <p>問合せ先：SpaResort湯の華アイランド　(0574)24-3811<br>
+                所 在 地：可児市土田4800-1<br>
+                アクセス：国道41号交差点西側<br>
+                ＊<a href="yuno.html">SpaResort湯の華アイランド</a>
+            </p></div></div><br><br>
+
+<div class="imge-menu">
+<div class="imge"><img src="img/spot/木曽川渡し場遊歩道(かぐや姫の散歩道).JPG" width="280" alt="" ></div>
+<div class="text">
+    <strong>木曽川渡し場遊歩道(かぐや姫の散歩道)</strong>
+    <p>問合せ先：可児市観光交流課　(0574)62-1111<br>
+        所 在 地：可児市今渡地区・土田地区<br>
+        アクセス：名鉄日本ライン今渡駅から徒歩20分<br>
+        　　　　　東海環状自動車道美濃加茂ICから車で15分<br>
+        ＊<a href="take.html">木曽川渡し場遊歩道(かぐや姫の散歩道)</a>
+    </p></div></div><br><br>
+
+<div class="imge-menu">
+<div class="imge"><img src="img/spot/鳩吹山遊歩道.jpg" width="280" alt="" ></div>
+<div class="text">
+        <strong>鳩吹山遊歩道</strong>
+        <p>問合せ先：可児市観光交流課　(0574)62-1111<br>
+            所 在 地：可児市土田地区<br>
+            アクセス：名鉄広見線可児川駅から徒歩17分<br>
+            　　　　　可児川下流域自然公園駐車場利用・無料<br>
+            ＊<a href="yama.html">鳩吹山</a>
+        </p></div></div><br><br>
+<div class="imge-menu">
+<div class="imge"><img src="img/spot/明智光秀のふるさと 明智荘.jpg" width="280" alt="" ></div>
+<div class="text">
+            <strong>明智光秀のふるさと　明智荘</strong>
+            <p>問合せ先：可児市観光交流課(0574)62-1111<br>
+               所 在 地：可児市瀬田<br>
+               アクセス：名鉄広見線明智駅から徒歩23分,<br>
+               　　　　　東海環状自動車道可児御嵩ICから車で5分<br>
+               ＊<a href="akech.html">明智光秀のふるさと　明智荘</a>
+                                </p></div></div><br><br>
+
+<div class="imge-menu">
+<div class="imge"><img src="img/spot/道の駅 可児ッテ.jpg" width="280" alt="" ></div>
+<div class="text">
+        <strong>道の駅　可児ッテ</strong>
+            <p>問合せ先：可児ッテ　(0574)61-3780<br>
+                        所 在 地：可児市柿田416-1<br>
+                        アクセス：東海環状自動車道可児御嵩ICから車で3分<br>
+                        ＊<a href="kani.html">道の駅　可児ッテ</a>
+                    </p></div></div></div><br>
+
+
+
+
+
+                    
+                    <footer><!--フッター-->
+                        <div class="gotio">
+                          <a href="spot.html"><img src="img/top.png"></a><br>
+                         <a href="Copyright.html">&copy;ふらっと可児</a>
+                       </div>
+                      </footer>
+                      </body>
+                      </html> 
