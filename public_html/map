@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅の計画</title>
+    <!--cssの導入-->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/travel.css">
+    <link rel="stylesheet" href="css/folder.css">
+</head>
+<body>
+    <header class="logo">
+        <a href="index.html"><img src="img/logo.c.png"width="250" alt="ふらっと可児"></a>
+        </header>
+
+        <nav class="nav"><!--ヘッダーの設定-->
+            <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="spot.html">自然・観光</a></li>
+            <li><a href="travel.html">旅の計画</a></li>
+            <li><a href="map.html">マップ</a></li>
+            </ul>
+          </nav>
+          <div class="text-are">
+            <h1>可児市のオリジナルマップ</h1></div><br>
+        <div class="map">
+        <img src="img/travel/可児市の観光地マップ.png" usemap="#ImageMap" alt="" />
+            <map name="ImageMap">
+              <area shape="circle" coords="458,234,17" href="akech.html" alt="" />
+              <area shape="circle" coords="119,239,16" href="yuno.html" alt="" />
+              <area shape="circle" coords="519,207,17" href="kani.html" alt="" />
+              <area shape="circle" coords="85,258,18" href="yama.html" alt="" />
+              <area shape="circle" coords="207,166,18" href="take.html" alt="" />
+              <area shape="circle" coords="492,238,16" href="natu.html" alt="" />
+              <area shape="rect" coords="565,39,873,69" href="akech.html" alt="" />
+              <area shape="rect" coords="564,72,869,99" href="yuno.html" alt="" />
+              <area shape="rect" coords="564,104,811,129" href="kani.html" alt="" />
+              <area shape="rect" coords="564,132,801,160" href="yama.html" alt="" />
+              <area shape="rect" coords="564,164,978,187" href="take.html" alt="" />
+              <area shape="rect" coords="563,193,916,221" href="natu.html" alt="" />
+            </map></div><br>
+
+            <footer><!--フッター-->
+              <div class="gotio">
+                <a href="map.html"><img src="img/top.png"></a><br>
+               <a href="Copyright.html">&copy;ふらっと可児</a>
+             </div>
+            </footer>
+            </body>
+            </html> 
