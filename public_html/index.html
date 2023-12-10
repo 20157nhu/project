@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--jQueryの導入google--><!--css-->
+<link rel="stylesheet" href="./slick/slick.css">
+<link rel="stylesheet" href="./slick/slick-theme.css">
+<link rel="stylesheet" href="css/default.css">
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/folder.css">
+<link rel="stylesheet" type="text/css" href="css/scroll.css">
+<title>可児市</title>
+<!--フォトギャラリーの導入-->
+</head>
+<body>
+  <header class="logo">
+    <a href="index.html"><img src="img/logo.c.png"width="250" alt="ふらっと可児"></a>
+    </header>
+    <nav class="nav"><!--ヘッダーの設定-->
+      <ul>
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="spot.html">自然・観光</a></li>
+      <li><a href="travel.html">旅の計画</a></li>
+      <li><a href="map.html">マップ</a></li>
+
+      </ul>
+    </nav>
+<div class="your-class"> <!--スライドショー(slick)の写真-->
+    <div><img src="img/home/ぎふワールドローズガーデン.JPG"width="1200px" height="600px"></div>
+    <div><img src="img/home/木曽川渡し場遊歩道(かぐや姫の散歩道).JPG"width="1200px" height="600px"></div>
+    <div><img src="img/home/鳩吹山遊歩道.JPG"width="1200px" height="600px"></div>
+</div>
+  
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+
+  $(document).ready(function(){
+  $('.your-class').slick({});
+});
+
+$(".your-class").slick({
+    autoplay: true, // 自動再生
+    fade: true, // スライドをフェードイン・フェードアウト
+    cssEase: 'linear',// アニメーション
+    speed: 500, // フェードアニメーションの速度設定
+    infinite: true,//無限スライド
+    arrows: true, // 矢印
+});
+
+$(function() {
+  $(".your-class").slick({
+    slidesToShow: 2,
+    responsive: [{
+      breakpoint: 1024, //切り替えたいデバイス幅①
+      settings: {
+        slidesToShow: 1,
+      }
+    }, {
+      breakpoint: 767,//切り替えたいデバイス幅②
+      settings: {
+        slidesToShow: 2,
+        dots: true
+      }
+    }],
+  });
+});
+
+</script>
+<br><br>
+<div class="text-area">
+  <h2>可児市について</h2><br></div>
+  <p class="text">
+    <strong>地勢</strong><br>
+    岐阜県中南部に位置する本市は、名古屋市および県庁所在地の岐阜市から30km圏内にあり、
+    北部はおおむね平坦で、南部は県下最大級の工業団地、住宅団地やゴルフ場が点在する丘陵地となっています。また、市の北端部には日本ラインとして名高い木曽川、中央部には東西に流れる可児川があり、豊かな自然環境に抱かれています。
+    <br><br>
+    <strong>歴史</strong><br>
+    古くから歴史をはぐくみ、市内には国指定史跡長塚古墳、銅たく発掘の地など多くの遺跡が分布しています。飛騨川・木曽川の合流点として交通の要所を占め、戦国時代には明智光秀出生地の明智（長山）城や森蘭丸出生城「美濃金山城」など多くの山城が築かれ、江戸時代には市内を東西に中山道が横断し木曽の渡しとともに川湊が開かれるなど、現在の可児市の基礎がこの頃形成されました。また、市東部の丘陵は、志野、織部を代表とする桃山茶陶の発祥の地として名高く、明治まで美濃焼の主要生産地となっていました。
+    明治以降は、製糸業の導入とともに発展し、昭和30年には可児郡西部の7か町村が合併し可児町が誕生、その後御嵩町・姫治村の一部を編入しました。昭和40年代後半に入ると、名古屋市のベッドタウンとして人口が急増し、昭和57年４月１日、全国650番目の市として市制を施行しました。その後、平成17年5月1日には、兼山町と合併し人口も10万人を超え、可茂地域の拠点都市として発展をしています。<br><br>
+    ＊公式サイト:<a href="https://kani-kankou.jp/">可児市観光協会</a>
+  </p>
+
+<!--フォトギャラリーの導入-->
+  <div class="container"></div><br>
+  <header>
+    <h3 class="title">テーマで探す</h3>
+  </header>
+  <div class="flex">
+      <section class="box">
+      <h3>Theme01</h3>
+      <figure>
+        <a href="natu.html"><img src="img/folder/IMG_0090.JPG" width="130" height=130 alt=""></a>
+              <figcaption>
+                  花をみにいく</figcaption>
+              </figure>
+      </section>
+      <section class="box">
+          <h3>Theme02</h3>
+          <figure>
+              <a href="yuno.html"><img src="img/folder/yuno_s.jpg" width="130"height="130"></a>
+              <figcaption>
+                  リゾート気分</figcaption>
+          </figure>
+      </section>
+      <section class="box">
+          <h3>Theme03</h3>
+          <figure>
+              <a href="take.html"><img src="img/folder/IMG_0230.jpg"width="130" height="130" alt=""></a>
+              <figcaption>
+                  癒しの時間</figcaption>
+          </figure>
+      </section>
+      <section class="box">
+        <h3>Theme04</h3>
+        <figure>
+            <a href="yama.html"><img src="img/folder/IMG_0368.jpg"width="130" height=130 alt=""></a>
+            <figcaption>
+                登山を楽しむ</figcaption>
+        </figure>
+    </section>
+    <section class="box">
+      <h3>Theme05</h3>
+      <figure>
+          <a href="akech.html"><img src="img/folder/akech_s.jpg"width="130" height="130" alt=""></a>
+          <figcaption>
+              歴史を知る</figcaption>
+      </figure>
+  </section>
+  <section class="box">
+    <h3>Theme06</h3>
+    <figure>
+        <a href="kani.html"><img src="img/folder/kani_s.jpg"width="130" height="130" alt=""></a>
+        <figcaption>
+            お土産を買う</figcaption>
+    </figure>
+</section></div></div>
+  <br><br>
+
+
+<br><br>
+<footer><!--フッター-->
+  <div class="gotio">
+    <a href="spot.html"><img src="img/top.png"></a><br>
+   <a href="Copyright.html">&copy;ふらっと可児</a>
+ </div>
+</footer>
+</body>
+</html> 
